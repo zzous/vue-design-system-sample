@@ -1,0 +1,21 @@
+{
+  "app": {
+    "title": "SCC FE Vite 샘플",
+    "subtitle": "Vue 3.5 + Vite 마이그레이션 참고 프로젝트"
+  },
+  "nav": {
+    "home": "홈",
+    "form": "폼 검증",
+    "chart": "차트",
+    "editor": "Monaco",
+    "diff": "코드 Diff",
+    "designSystem": "Design System"
+  },
+  "home": {
+    "counter": "Pinia 카운터 (localStorage 유지)",
+    "increment": "증가",
+    "reset": "초기화",
+    "mockApi": "Mock API 호출",
+    "stack": "포함 스택"
+  }
+}

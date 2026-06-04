@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    'Segoe UI',
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background: #fafafa;
+  color: $color-text;
+  line-height: 1.5;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid $color-border;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+
+  h2 {
+    margin: 0 0 1rem;
+    font-size: 1.15rem;
+  }
+}
+
+.btn {
+  padding: 0.45rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: $color-primary;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  &--ghost {
+    background: $color-surface;
+    color: $color-text;
+    border: 1px solid $color-border;
+  }
+}
+
+code {
+  font-size: 0.85em;
+  background: $color-surface;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}

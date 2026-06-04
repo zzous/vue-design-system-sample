@@ -1,0 +1,21 @@
+{
+  "app": {
+    "title": "SCC FE Vite Sample",
+    "subtitle": "Vue 3.5 + Vite migration reference project"
+  },
+  "nav": {
+    "home": "Home",
+    "form": "Form",
+    "chart": "Chart",
+    "editor": "Monaco",
+    "diff": "Code Diff",
+    "designSystem": "Design System"
+  },
+  "home": {
+    "counter": "Pinia counter (persisted)",
+    "increment": "Increment",
+    "reset": "Reset",
+    "mockApi": "Call mock API",
+    "stack": "Included stack"
+  }
+}

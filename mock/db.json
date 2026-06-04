@@ -1,0 +1,6 @@
+{
+  "users": [
+    { "id": 1, "name": "홍길동", "role": "admin" },
+    { "id": 2, "name": "김철수", "role": "operator" }
+  ]
+}

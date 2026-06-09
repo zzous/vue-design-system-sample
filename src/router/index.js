@@ -33,6 +33,11 @@ const router = createRouter({
       name: 'design-system',
       component: () => import('@/views/DesignSystemView.vue'),
     },
+    {
+      path: '/ag-grid',
+      name: 'ag-grid',
+      component: () => import('@/views/AgGridView.vue'),
+    },
   ],
 })
 

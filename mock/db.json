@@ -2,5 +2,10 @@
   "users": [
     { "id": 1, "name": "홍길동", "role": "admin" },
     { "id": 2, "name": "김철수", "role": "operator" }
-  ]
+  ],
+  "codeDiff": {
+    "language": "javascript",
+    "oldCode": "function hello() {\n  console.log(\"Hello\");\n}",
+    "newCode": "function hello(name = \"World\") {\n  console.log(`Hello, ${name}!`);\n}"
+  }
 }

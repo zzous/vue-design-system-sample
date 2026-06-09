@@ -8,10 +8,16 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix",
-    "mock": "json-server --watch mock/db.json --port 3001"
+    "mock": "json-server --watch mock/db.json --port 3001",
+    "export:nexus-tgz": "node scripts/export-nexus-tgz.mjs",
+    "test:nexus-install": "node scripts/test-nexus-install.mjs",
+    "test:nexus-install:restore": "node scripts/test-nexus-install.mjs --restore"
   },
   "dependencies": {
     "@zzou/vue-design-system": "^1.0.7",
+    "ag-grid-community": "^35.3.1",
+    "ag-grid-vue3": "^35.3.1",
+    "axios": "^1.13.3",
     "chart.js": "^4.4.9",
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21",

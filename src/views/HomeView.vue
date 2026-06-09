@@ -21,6 +21,7 @@ const stack = [
   'lodash / lodash-es',
   'sass (Vite 내장, sass-loader 불필요)',
   '@zzou/vue-design-system',
+  'ag-grid-community + ag-grid-vue3',
 ]
 
 const fetchMock = debounce(async () => {

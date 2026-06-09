@@ -9,7 +9,8 @@
     "chart": "차트",
     "editor": "Monaco",
     "diff": "코드 Diff",
-    "designSystem": "Design System"
+    "designSystem": "Design System",
+    "agGrid": "AG Grid"
   },
   "home": {
     "counter": "Pinia 카운터 (localStorage 유지)",

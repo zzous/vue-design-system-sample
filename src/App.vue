@@ -10,6 +10,7 @@ const navItems = [
   { to: '/editor', labelKey: 'nav.editor' },
   { to: '/diff', labelKey: 'nav.diff' },
   { to: '/design-system', labelKey: 'nav.designSystem' },
+  { to: '/ag-grid', labelKey: 'nav.agGrid' },
 ]
 
 function toggleLocale() {
